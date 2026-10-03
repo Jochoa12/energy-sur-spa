@@ -13,6 +13,19 @@
 <meta property="og:description" content="TDA, TDF, TTA y TG industriales y domiciliarios. Cotiza por WhatsApp +56 9 4438 6090. Lipingue, Los Lagos.">
 <meta property="og:image" content="https://energy-sur-spa.vercel.app/images/logo2.jpg">
 <meta property="og:url" content="https://www.energysurspa.cl/">
+<!-- Google Analytics 4: G-KM7EL90V2D -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KM7EL90V2D"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-KM7EL90V2D');
+function trackWA(origen){ try{ gtag('event','contacto_whatsapp',{origen:origen||'web'}); }catch(e){} }
+document.addEventListener('click', function(ev){
+  var a = ev.target.closest ? ev.target.closest('a[href*="wa.me"]') : null;
+  if(a){ try{ gtag('event','contacto_whatsapp',{origen:(a.textContent||'').slice(0,60)}); }catch(e){} }
+});
+</script>
 <meta name="theme-color" content="#0B1220">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -130,7 +143,6 @@ footer{background:#080D18;color:#fff;padding:34px 0 110px}
   "geo":{"@type":"GeoCoordinates","latitude":-39.8575,"longitude":-72.81},
   "hasMap":"https://www.google.com/maps/search/?api=1&query=Lipingue+Los+Lagos+Chile",
   "openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"18:30"}],
-  "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"57"},
   "areaServed":["Los Lagos","Valdivia","Futrono","Máfil","Panguipulli","Región de Los Ríos"]
 }
 </script>
@@ -151,7 +163,6 @@ footer{background:#080D18;color:#fff;padding:34px 0 110px}
   <div class="hero-grid">
     <div class="hero-txt">
       <div class="badge-row">
-        <span class="badge">★ 4.9 en Google (57 reseñas)</span>
         <span class="badge sec">✔ Cumple normativa SEC</span>
         <span class="badge open" id="estado-hoy">● Abierto ahora</span>
       </div>
@@ -174,7 +185,6 @@ footer{background:#080D18;color:#fff;padding:34px 0 110px}
 <div class="trust" role="note" aria-label="Confianza">
   <div class="trust-in">
     <span>Más de 12 años diseñando e instalando tableros eléctricos industriales y domiciliarios con certificación SEC</span><span>•</span>
-    <span>★ 4.9 · 57 reseñas</span><span>•</span>
     <span>📍 Lipingue, Los Lagos</span><span>•</span>
     <span>🚚 Toda la Región de Los Ríos</span>
   </div>
@@ -237,21 +247,6 @@ footer{background:#080D18;color:#fff;padding:34px 0 110px}
       <div class="vs-row"><div><b>Postventa directa</b><br>Lun–Sáb 09:00-18:30</div><div class="check">✅ Respondemos el día</div><div class="cross">❌ Desaparecen</div></div>
     </div>
     <a class="btn btn-yellow" style="margin-top:14px" href="https://wa.me/56944386090?text=Hola%20Se%C3%B1ores%20Energy%20Sur%2C%20necesitamos%20cotizar%20sus%20servicios.%20Quiero%20algo%20seguro%20y%20certificado">Agendar Reunión por WhatsApp</a>
-  </div>
-</section>
-<section class="block reviews" id="resenas">
-  <div class="wrap">
-    <h2>Vecinos en Los Lagos que ya <span class="hl">confían</span> ★ 4.9</h2>
-    <p class="sub">57 reseñas en Google. Pídenos el link y compruébalo.</p>
-    <div class="rev-grid">
-      <div class="rev"><div class="stars">★★★★★</div><p>“Nos hicieron el TG del galpón acá en Los Lagos. Ordenado, con plano y SEC lista. Se nota la experiencia.”</p><b>Matías Contreras</b><span class="loc">Los Lagos · hace 2 semanas</span></div>
-      <div class="rev"><div class="stars">★★★★★</div><p>“Cambié el TDA de la casa en Los Lagos, se cortaba todo. Ahora ni un problema, harto profesional.”</p><b>Camila Paredes</b><span class="loc">Los Lagos · hace 1 mes</span></div>
-      <div class="rev"><div class="stars">★★★★★</div><p>“El TTA pa'l generador quedó impecable. Se corta la luz en Lipingue y parte solo. Salva.”</p><b>Juan Pablo Muñoz</b><span class="loc">Lipingue, Los Lagos · hace 3 semanas</span></div>
-      <div class="rev"><div class="stars">★★★★★</div><p>“Cotización clara por WhatsApp, vinieron a terreno e instalaron en la fecha. Recomendados.”</p><b>Fernanda Vargas</b><span class="loc">Los Lagos · hace 2 meses</span></div>
-      <div class="rev"><div class="stars">★★★★★</div><p>“Pa' la lechería pedimos TDF trifásico. Materiales buenos, no lo barato. Un año sin fallas.”</p><b>Diego Sandoval</b><span class="loc">Los Lagos · hace 1 semana</span></div>
-      <div class="rev"><div class="stars">★★★★★</div><p>“Llamé por olor a quemado, vinieron al tiro. Normalizaron todo y certificaron.”</p><b>Marcela Aguilar</b><span class="loc">Los Lagos · hace 5 días</span></div>
-    </div>
-    <a class="btn btn-call" style="margin-top:14px" href="https://www.google.com/maps/search/?api=1&query=Energy+Sur+Spa+Lipingue+Los+Lagos">⭐ Ver reseñas en Google Maps</a>
   </div>
 </section>
 <section class="block" id="clientes" style="background:var(--navy);color:#fff">
